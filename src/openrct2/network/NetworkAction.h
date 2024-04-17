@@ -22,6 +22,7 @@ enum class NetworkPermission : uint32_t
     Terraform,
     SetWaterLevel,
     TogglePause,
+    SetGameSpeed,
     CreateRide,
     RemoveRide,
     BuildRide,

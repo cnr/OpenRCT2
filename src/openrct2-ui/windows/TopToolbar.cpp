@@ -3086,9 +3086,6 @@ static Widget _topToolbarWidgets[] = {
                     break;
                 case NETWORK_MODE_CLIENT:
                     widgets[WIDX_PAUSE].type = WindowWidgetType::Empty;
-                    [[fallthrough]];
-                case NETWORK_MODE_SERVER:
-                    widgets[WIDX_FASTFORWARD].type = WindowWidgetType::Empty;
                     break;
             }
 

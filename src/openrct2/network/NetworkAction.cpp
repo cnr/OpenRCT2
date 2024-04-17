@@ -81,6 +81,13 @@ const std::array<NetworkAction, static_cast<size_t>(NetworkPermission::Count)> N
         },
     },
     NetworkAction{
+        STR_GAME_SPEED_TIP,
+        "PERMISSION_SET_GAME_SPEED",
+        {
+            GameCommand::SetGameSpeed,
+        },
+    },
+    NetworkAction{
         STR_ACTION_CREATE_RIDE,
         "PERMISSION_CREATE_RIDE",
         {
